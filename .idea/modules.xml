@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Expression/Expression.iml" filepath="$PROJECT_DIR$/Expression/Expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoops/ForLoops.iml" filepath="$PROJECT_DIR$/ForLoops/ForLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Tutorial.iml" filepath="$PROJECT_DIR$/.idea/Java_Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Objects/Objects.iml" filepath="$PROJECT_DIR$/Objects/Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadingMethods/OverloadingMethods.iml" filepath="$PROJECT_DIR$/OverloadingMethods/OverloadingMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parser/Parser.iml" filepath="$PROJECT_DIR$/Parser/Parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShortLongByteInt/ShortLongByteInt.iml" filepath="$PROJECT_DIR$/ShortLongByteInt/ShortLongByteInt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchStatements/SwitchStatements.iml" filepath="$PROJECT_DIR$/SwitchStatements/SwitchStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhileLoop/WhileLoop.iml" filepath="$PROJECT_DIR$/WhileLoop/WhileLoop.iml" />
+    </modules>
+  </component>
+</project>
