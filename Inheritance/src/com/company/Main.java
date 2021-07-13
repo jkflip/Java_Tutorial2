@@ -9,13 +9,45 @@ public class Main {
         // Create Dog class
         Dog dog = new Dog("Husky",8,20,2,4,1,20,"Long and silky");
 
-        // Part 1 - Un/comment where necessary
+        // Un/comment where necessary
+        // Part 1 - Inheritance
+        // ============================================================================================================
+        //System.out.println("Part 1: Inheritance ----------------------------------------------------------");
         //dog.eat(); // Note that eat is not defined in Dog class but is inherited from the Animal class
 
-        // Part 2 - Un/comment where necessary
+        // Part 2 - Inheritance: superclass & override
+        // ============================================================================================================
+        //System.out.println("Part 2: Inheritance: superclass vs override ----------------------------------");
         //dog.walk(); // set to call method from superclass: super.move()
-        dog.run();  // set to call method overriden in Dog: move()
-    }
+        //dog.run();  // set to call method overriden in Dog: move()
 
+        // Part 3 - References vs Object vs Instance vs Class
+        // ============================================================================================================
+        // House class to act as a "blueprint". Each house built is an "object" (i.e. "instance"). Every house has an
+        // address and this is known as "reference". Copying references != copying the house, we are only copying
+        // the address to the house.
+
+        System.out.println("Part 3: References vs Object vs Instance vs Class ----------------------------");
+        House blueHouse = new House("blue");    // Declare new instance/object of House class; blueHouse to be blue
+        House anotherHouse = blueHouse;              // anotherHouse points(i.e. references) to blueHouse
+
+        // 2 references pointing to the same object in memory, thus both will print blue
+        System.out.println("blueHouse.getColor() = " + blueHouse.getColor());       // prints blue
+        System.out.println("another.getColor() = " + anotherHouse.getColor() + "\n");    // same
+
+        // Set the color of blueHouse to be red (anotherHouse is still pointing to blueHouse)
+        anotherHouse.setColor("red");
+        System.out.println("blueHouse.getColor() = " + blueHouse.getColor());   // prints red
+        System.out.println("another.getColor() = " + anotherHouse.getColor() + "\n"); // same
+
+        House greenHouse = new House("green");  // New instance greenHouse to be green
+        anotherHouse = greenHouse;  // Dereferencing anotherHouse to make it point/reference to greenHouse
+
+        System.out.println("blueHouse.getColor() = " + blueHouse.getColor());    // prints red
+        System.out.println("greenHouse.getColor() = " + greenHouse.getColor());   // prints green
+        System.out.println("another.getColor() = " + anotherHouse.getColor() + "\n"); // prints green
+
+
+    }
 
 }
