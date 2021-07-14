@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6ab14ed-20ea-4dd5-acf3-cf8bc06e1964" name="Default Changelist" comment="">
+    <list default="true" id="d6ab14ed-20ea-4dd5-acf3-cf8bc06e1964" name="Default Changelist" comment="Added House class to Inheritance module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/com/company/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/com/company/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626079728325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added House class to Inheritance module">
+      <created>1626154553478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626154553478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleted .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted .idea" />
+    <MESSAGE value="Added House class to Inheritance module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added House class to Inheritance module" />
   </component>
 </project>

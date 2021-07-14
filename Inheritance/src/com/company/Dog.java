@@ -36,7 +36,7 @@ public class Dog extends Animal{    //Dog is part of the animal class
 
     // Override a method from the superclass, Animal
     // Now both the dog class and the animal class have the .eat method
-    @Override // This will override the eat method defined in superclass Animal
+    @Override // This will override the eat method defined in superclass Animal (override can be auto-generated)
     public void eat() {
         System.out.println("Dog.eat() is called");
 
