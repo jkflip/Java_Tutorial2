@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ab14ed-20ea-4dd5-acf3-cf8bc06e1964" name="Default Changelist" comment="squash! Inheritance module added">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance/com/company/Main.class" afterDir="false" />
     </list>
     <list id="323f8880-e75c-4fb8-802c-097d26febe87" name="Added Java classes: Vehicle, Car and Hilux &amp; Circle and Cylinder" comment="" />
     <list id="71b39152-efd4-467b-bc54-07b1b5b2ff25" name="Revert &quot;Added Java classes: Vehicle, Car and Hilux &amp; Circle and Cylinder&quot;" comment="Revert &quot;Added Java classes: Vehicle, Car and Hilux &amp; Circle and Cylinder&quot;&#10;&#10;This reverts commit 6160e6df" />
@@ -46,6 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Encapsulation/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,13 +68,33 @@
       <recent name="BuildingAComputer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Encapsulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Composition" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.BuildingAComputer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Encapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +132,15 @@
       <item itemvalue="Application.Main_Inheritance" />
       <item itemvalue="Application.Main_OverloadingMethods" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main_Inheritance" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main_OverloadingMethods" />
       </list>
     </recent_temporary>
@@ -158,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626530550897</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Composition module">
+      <created>1627106069171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627106069171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +216,7 @@
     <MESSAGE value="Added House class to Inheritance module" />
     <MESSAGE value="squash! Inheritance module added" />
     <MESSAGE value="Added Java classes: Vehicle, Car and Hilux &amp; Circle and Cylinder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java classes: Vehicle, Car and Hilux &amp; Circle and Cylinder" />
+    <MESSAGE value="Added Composition module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Composition module" />
   </component>
 </project>

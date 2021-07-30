@@ -56,6 +56,7 @@ public class Main {
 
         // Coding Exercise 35: Circle
         // ============================================================================================================
+        System.out.println("Coding Exercise 35: Circle -----------------------------------------------------");
         Circle circle = new Circle(3.75);
         System.out.println("circle.radius= " + circle.getRadius());
         System.out.println("circle.area= " + circle.getArea());
